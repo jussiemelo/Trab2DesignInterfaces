@@ -1,0 +1,250 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Por Dentro do Computador</title>
+
+    <link rel="stylesheet" href="css/modern-normalize.css">
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body>
+
+    <header id="inicio">
+        <img src="img/Banner Neon_ Por Dentro do Computador.png" alt="Logotipo Por Dentro do Computador">
+
+        <h1>Por Dentro do Computador</h1>
+        <p>Um guia básico sobre hardware.</p>
+
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle">☰ Menu</label>
+
+        <nav>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#componentes">Componentes</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#referencias">Referências</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="componentes">
+            <h2>Conhecendo os componentes</h2>
+
+            <p>
+                Nesta seção você conhecerá os principais componentes
+                de um computador de mesa e aprenderá sobre suas funções.
+            </p>
+
+            <h3>Gabinete</h3>
+
+            <figure>
+                <img src="img/case.webp" alt="Gabinete de computador">
+                <p>Gabinete do computador.</p>
+            </figure>
+
+            <p>
+                O gabinete (também conhecido como Chassi ou Torre): É a estrutura externa — 
+                geralmente fabricada em liga de aço, alumínio e vidro 
+                temperado — responsável por sustentar e proteger os 
+                componentes internos contra poeira, impactos físicos e 
+                interferências externas. Além da função estrutural, o 
+                gabinete desempenha um papel crítico na gerenciamento 
+                térmico (airflow), direcionando o fluxo de ar de ventoinhas 
+                para resfriar os componentes mais exigidos. Seu formato 
+                também dita o padrão de tamanho das peças (como os padrões 
+                ATX, Micro-ATX e Mini-ITX).
+            </p>
+
+            <h3>Placa-mãe</h3>
+
+            <figure>
+                <img src="img/mobo.webp" alt="Placa-mãe de computador">
+                <p>Placa-mãe.</p>
+            </figure>
+
+            <p>
+                A placa-mãe (Motherboard): É a placa de circuito impresso principal 
+                que atua como a espinha dorsal de todo o sistema. Ela integra fisicamente 
+                e conecta eletricamente todos os componentes por meio de barramentos 
+                de dados e energia. Abriga o soquete da CPU, os slots para a memória 
+                RAM, as conexões de armazenamento (como portas SATA e M.2), os slots 
+                de expansão PCIe (utilizados por placas de vídeo) e o chip BIOS/UEFI, 
+                responsável por realizar a checagem básica do hardware e inicializar 
+                o sistema operacional.
+            </p>
+
+            <h3>Processador</h3>
+
+            <figure>
+                <img src="img/cpu.webp" alt="Processador de computador">
+                <p>Processador (CPU).</p>
+            </figure>
+
+            <p>
+                O processador (CPU - Unidade Central de Processamento): Considerado 
+                o "cérebro" do computador, é a unidade encarregada de interpretar e 
+                executar as instruções passadas pelos softwares e pelo sistema 
+                operacional. É composto por múltiplos núcleos de processamento (cores), 
+                a Unidade Lógica e Aritmética (ULA), registradores e a memória Cache 
+                (L1, L2 e L3), uma memória ultrarrápida que reduz o tempo de busca por 
+                dados frequentes. Sua velocidade de processamento é regulada pela 
+                frequência de clock (medida em GHz).
+            </p>
+
+            <h3>Memória RAM</h3>
+
+            <figure>
+                <img src="img/ram.webp" alt="Memória RAM de computador">
+                <p>Memória RAM.</p>
+            </figure>
+
+            <p>
+                A memória RAM (Random Access Memory): É a memória principal de acesso 
+                aleatório e de natureza volátil, o que significa que seus dados são 
+                apagados quando o computador é desligado. A RAM atua como uma área de 
+                trabalho temporária e de altíssima velocidade para o processador, 
+                armazenando os dados das aplicações e abas do navegador que estão em 
+                uso no exato momento. Quanto maior a capacidade (medida em GB) e a 
+                velocidade (como nos padrões DDR4 e DDR5), mais tarefas o computador 
+                consegue executar simultaneamente sem travamentos.
+            </p>
+
+            <h3>Armazenamento</h3>
+
+            <figure>
+                <img src="img/ssd.webp" alt="Dispositivo de armazenamento">
+                <p>Dispositivo de armazenamento.</p>
+            </figure>
+
+            <p>
+                (Memória Secundária): Trata-se do componente responsável por guardar 
+                dados de forma permanente (não-volátil), mantendo o sistema operacional, 
+                programas e arquivos pessoais gravados mesmo com a máquina desligada. 
+                Apresenta-se principalmente em dois tipos:
+                <br>
+                <br>
+                • HD (Hard Disk Drive): Dispositivo mecânico que grava dados em discos 
+                magnéticos que giram em alta velocidade, oferecendo grande capacidade por 
+                um custo menor, porém com menor velocidade de leitura e escrita.
+                <br>
+                <br>
+                • SSD (Solid State Drive): Dispositivo moderno baseado em chips de memória 
+                flash (padrões SATA ou NVMe). Por não conter partes móveis, é muito mais 
+                resistente e atinge velocidades de leitura/escrita drasticamente superiores 
+                às do HD, acelerando a inicialização do sistema e o carregamento de arquivos.
+            </p>
+
+            <h3>Fonte de alimentação</h3>
+
+            <figure>
+                <img src="img/psu.webp" alt="Fonte de alimentação de computador">
+                <p>Fonte de alimentação.</p>
+            </figure>
+
+            <p>
+                A fonte de alimentação (PSU - Power Supply Unit): É o componente encarregado 
+                de converter a corrente alternada (CA) fornecida pela tomada da rede elétrica 
+                em corrente contínua (CC), nas voltagens específicas exigidas pelos componentes 
+                internos (como 3.3V, 5V e 12V). Uma fonte de qualidade distribui energia de 
+                forma limpa e estável, contando com proteções elétricas contra curtos-circuitos 
+                e picos de tensão, além de certificações de eficiência (como o selo 80 PLUS).
+            </p>
+
+            <h3>Placa de vídeo</h3>
+
+            <figure>
+                <img src="img/gpu.webp" alt="Placa de vídeo de computador">
+                <p>Placa de vídeo.</p>
+            </figure>
+
+            <p>
+                A placa de vídeo (GPU - Unidade de Processamento Gráfico): É o circuito 
+                especializado na geração e renderização do sinal visual que é enviado ao 
+                monitor. A GPU possui uma arquitetura otimizada para realizar milhares de 
+                cálculos matemáticos paralelos ao mesmo tempo. Pode ser integrada (embutida 
+                no próprio processador, compartilhando a memória RAM principal) ou dedicada 
+                (uma placa independente dotada de sua própria memória de alta velocidade, 
+                chamada VRAM), indispensável para jogos pesados, edição de vídeo, computação 
+                visual e inteligência artificial.
+            </p>
+
+        </section>
+
+        <section id="galeria">
+            <h2>Galeria de componentes</h2>
+
+            <p>
+                Confira as imagens de alguns dos componentes
+                apresentados neste guia.
+            </p>
+
+            <figure>
+                <img src="img/computador_montado.webp" alt="Computador montado">
+                <p>Computador montado.</p>
+            </figure>
+
+            <figure>
+                <img src="img/mobo_galeria.webp" alt="Placa-mãe de computador">
+                <p>Placas-mãe.</p>
+            </figure>
+
+            <figure>
+                <img src="img/cpu_galeria.webp" alt="Processador de computador">
+                <p>Processadores.</p>
+            </figure>
+
+            <figure>
+                <img src="img/ram_galeria.webp" alt="Módulo de memória RAM">
+                <p>Memórias RAM.</p>
+            </figure>
+
+            <figure>
+                <img src="img/ssd_galeria.webp" alt="Dispositivo de armazenamento">
+                <p>Armazenamento.</p>
+            </figure>
+
+            <figure>
+                <img src="img/ram_galeria.webp" alt="Fonte de alimentação">
+                <p>Fontes de alimentação.</p>
+            </figure>
+
+            <figure>
+                <img src="img/vga_galeria.webp" alt="Placa de vídeo">
+                <p>Placas de vídeo.</p>
+            </figure>
+
+            <h3 id="referencias">Referências</h3>
+
+            <p>
+               • STALLINGS, William. <a href="https://www.kufunda.net/publicdocs/Arquitetura%20e%20Organiza%C3%A7%C3%A3o%20de%20Computadores%20(William%20Stallings).pdf" target="_blank">Arquitetura e Organização de Computadores. 10. ed</a>. São Paulo: Pearson Education do Brasil, 2017.   
+                <br>
+                <br>
+               • TANENBAUM, Andrew S.; AUSTIN, Todd. <a href="https://pt.slideshare.net/slideshow/organizacao-estruturada-de-computadores-tanenbaum-pdf/272885777" target="_blank">Organização Estruturada de Computadores. 6. ed</a>. São Paulo: Pearson Education do Brasil, 2013.   
+                <br>
+                <br>
+               • MORIMOTO, Carlos Eduardo. <a href="https://ifsp.pergamum.com.br/acervo/29107" target="_blank">Hardware, o Guia Definitivo</a>. Porto Alegre: GDH Press, 2007.
+                <br>
+                <br>
+               • INTEL CORPORATION. <a href="https://www.intel.com/content/www/us/en/learn/what-is-ram-vs-processor.html" target="_blank">How Processors and Computer Memory Work</a>. Documentação técnica e guias de arquitetura.
+                <br>
+                <br>
+               • CORSAIR. <a href="https://www.corsair.com/br/pt/explorer/diy-builder/blogs/the-anatomy-of-a-pc/" target="_blank">A anatomia de um PC</a>: O que está no interior e o que faz cada parte?   
+            </p>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Desenvolvido por: Jussiê Melo.</p>
+        <p>Segundo Trabalho de Design de Interfaces.</p>
+    </footer>
+
+</body>
+</html>
